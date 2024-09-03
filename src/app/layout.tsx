@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import Head from "next/head";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
@@ -18,6 +19,9 @@ export const metadata: Metadata = {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
+  // icons: {
+  //   icon: "/favicon.ico"
+  // },
   description: DATA.description,
   openGraph: {
     title: `${DATA.name}`,
@@ -38,10 +42,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
-  },
   verification: {
     google: "",
     yandex: "",
@@ -55,6 +55,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <meta name="description" content={DATA.description} />
+        <title>{DATA.name}</title>
+      </Head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
