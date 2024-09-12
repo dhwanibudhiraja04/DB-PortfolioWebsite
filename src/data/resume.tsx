@@ -6,11 +6,11 @@ export const DATA = {
   initials: "DB",
   url: "https://dhwanibudhiraja.com",
   location: "New Delhi, India",
-  locationLink:"https://maps.app.goo.gl/gjC8e8hepcGbdsU38" ,
+  locationLink: "https://maps.app.goo.gl/gjC8e8hepcGbdsU38",
   description:
     "Final-year Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning at \n VIT Bhopal.",
   summary:
-    "I am Dhwani Budhiraja, a final-year Computer Science Engineering student at [VIT Bhopal](https://vitbhopal.ac.in/), specializing in  Artificial Intelligence and Machine Learning. With a strong grasp of core CSE subjects and intermediate to advanced skills in data structures and algorithms, I am a quick learner with a deep passion for system design. My [academic journey](/#education) has fostered a keen interest in the latest technologies, particularly in Artificial Neural Networks. I have extensively studied various AI/ML subjects, ranging from Deep Learning to Fuzzy Logic to Natural Language Processing, and I am committed to expanding my knowledge daily in the ever-evolving tech landscape.",
+    "I am Dhwani Budhiraja, a final-year Computer Science Engineering student at [VIT Bhopal](https://vitbhopal.ac.in/), specializing in  Artificial Intelligence and Machine Learning. With a strong grasp of core CSE subjects and intermediate to advanced skills in data structures and algorithms, I am a quick learner with a deep passion for system design. My [academic journey](/#education) has fostered a keen interest in the latest technologies, particularly in Artificial Neural Networks. I have extensively studied various AI/ML subjects, ranging from Deep Learning to Fuzzy Logic to Natural Language Processing, and I am committed to expanding my knowledge daily in the ever-evolving tech landscape.",
   avatarUrl: "/dhwanibudhirajaPic.jpg",
   skills: [
     "System Design",
@@ -24,10 +24,7 @@ export const DATA = {
     "SQL",
     "C++",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
- 
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "dhwanibudhiraja2004@gmail.com",
     tel: "+91 9400981593",
@@ -36,14 +33,12 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/dhwanibudhiraja04",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/dhwanibudhiraja/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       email: {
@@ -51,8 +46,7 @@ export const DATA = {
         url: "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=dhwanibudhiraja2004@gmail.com",
         icon: Icons.email,
         navbar: true,
-    }
-    ,
+      },
     },
   },
   education: [
@@ -105,12 +99,14 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://cdn.llm.report/openai-demo.mp4",
+      video: "https://cdn.llm.report/openai-demo.mp4",
     },
+  ],
+
+  UpcomingProjects: [
     {
       title: "PadhoVIT",
-      href: "https://magicui.design",
+      href: "",
       dates: "June 2023 - Present",
       active: true,
       description:
@@ -127,29 +123,27 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
-    
   ],
+
   certificate: [
-    
     {
       title: "Amazon Cloud Practitioner",
       dates: "Jan 11th, 2024",
       description:
-        "Completed AWS Cloud Practitioner certification with a good grasp of cloud basics. Proficient in deploying secure cloud solutions, monitoring performance, and implementing disaster recovery plans. I can manage and support cloud environments, ensuring they run smoothly and securely. ",
-        image:
-        "/amazonCloudPrac.jpeg",
+        "Completed AWS Cloud Practitioner certification with a good grasp of cloud basics. Proficient in deploying secure cloud solutions, monitoring performance, and implementing disaster recovery plans. I can manage and support cloud environments, ensuring they run smoothly and securely.",
+      image: "/amazonCloudPrac.jpeg",
       links: [
         {
           title: "Source",
@@ -158,20 +152,5 @@ export const DATA = {
         },
       ],
     },
-    // {
-    //   title: "Amazon Solutions Architect- Associate",
-    //   dates: "Jan 24th, 2024",
-    //   description: "Certified AWS Solutions Architect with ability to design and implement scalable, cost-effective cloud solutions. Proficient in enhancing cloud infrastructure, and minimizing downtime. Committed to building reliable, scalable solutions that align with organizational objectives.",
-    //   image:
-    //     "/amazonSolArch.jpeg",
-      
-    //   links: [
-    //     {
-    //       title: "Source",
-    //       icon: <Icons.globe className="h-4 w-4" />,
-    //       href: "https://cp.certmetrics.com/amazon/en/public/verify/credential/769790279aa3486ebdb8168c36a7c76d",
-    //     },
-    //   ],
-    // },
   ],
 } as const;
