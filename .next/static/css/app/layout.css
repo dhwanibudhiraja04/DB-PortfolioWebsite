@@ -792,9 +792,6 @@ video {
 .min-h-screen {
   min-height: 100vh;
 }
-.min-h-\[100vh\] {
-  min-height: 100vh;
-}
 .w-12 {
   width: 3rem;
 }
@@ -1508,11 +1505,6 @@ video {
   .xl\:text-xl\/relaxed {
     font-size: 1.25rem;
     line-height: 1.625;
-  }
-
-  .xl\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 }
 
