@@ -191,8 +191,35 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://imgur.com/a/bVixY0S",
     },
+    {
+      title: "RAG",
+      href: "",
+      dates: "Sept 2023 - Present",
+      active: true,
+      description:
+        "Developed a robust and free medical knowledge base using Retrieval Augmented Generation (RAG) with Pinecone, Next.js, LangChain, and Transformers.js. The project processes medical documents for seamless retrieval and embedding, offering efficient and cost-effective AI-powered solutions.",
+      technologies: [
+        "langchain",
+        "pinecone",
+        "next.js",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://imgur.com/a/bVixY0S",
+    }
   ],
 
   certificate: [
