@@ -132,7 +132,7 @@ export const DATA = {
     },
     {
       title: "NeuroNote",
-      href: "https://neuronote.com",
+      href: "https://neuro-note.com",
       dates: "Sept 2024",
       active: true,
       description:
@@ -147,7 +147,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://neuronote.com",
+          href: "https://neuro-note.com",
           icon: <Icons.globe className="size-3" />,
         },
         {
