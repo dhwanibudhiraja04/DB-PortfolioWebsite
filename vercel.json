@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "/resume",
+        "destination": "https://our-resumes.s3.amazonaws.com/DhwaniResume.pdf",
+        "permanent": true
+      }
+    ]
+  }
+  
