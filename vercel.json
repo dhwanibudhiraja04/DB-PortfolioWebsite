@@ -2,7 +2,7 @@
     "redirects": [
       {
         "source": "/resume",
-        "destination": "https://our-resumes.s3.amazonaws.com/DhwaniResume.pdf",
+        "destination": "https://my--resume.s3.amazonaws.com/DhwaniResume.pdf",
         "permanent": true
       }
     ]

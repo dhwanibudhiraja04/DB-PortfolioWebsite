@@ -1,5 +1,5 @@
 import { Icons } from "../../icons";
-import { HomeIcon, icons , NotebookIcon} from "lucide-react";
+import { HomeIcon, icons , NotebookIcon, File} from "lucide-react";
 
 export const DATA = {
   name: "Dhwani Budhiraja",
@@ -26,6 +26,7 @@ export const DATA = {
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" },
     { href: "https://www.techwithsd.com", icon: NotebookIcon, label: "Blog" },
+    { href: "https://www.dhwanibudhiraja.com/resume", icon: File, label: "Resume" }
   ],
   contact: {
     email: "dhwanibudhiraja2004@gmail.com",
