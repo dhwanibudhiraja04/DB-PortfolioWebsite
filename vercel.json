@@ -2,7 +2,12 @@
     "redirects": [
       {
         "source": "/resume",
-        "destination": "https://my--resume.s3.amazonaws.com/DhwaniResume.pdf",
+        "destination": "https://my--resume.s3.amazonaws.com/Dhwani_Budhiraja_Resume.pdf",
+        "permanent": true
+      },
+      {
+        "source": "/quicksell",
+        "destination": "https://quicksell-21bai10416.vercel.app/",
         "permanent": true
       }
     ]
