@@ -9,6 +9,11 @@
         "source": "/quicksell",
         "destination": "https://quicksell-21bai10416.vercel.app/",
         "permanent": true
+      },
+      {
+        "source": "/resume_qualcomm",
+        "destination": "https://my--resume.s3.amazonaws.com/Dhwani_Qualcomm_Resume.pdf",
+        "permanent": true
       }
     ]
   }
